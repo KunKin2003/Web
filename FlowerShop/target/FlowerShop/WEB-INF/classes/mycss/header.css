@@ -1,0 +1,41 @@
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgb(255,255,255,0.15) !important;
+        backdrop-filter: blur(10px);
+    }
+}
+
+@media (min-width: 601px) {
+    .nav-item:hover .dropdown-menu {
+        display: block;
+
+    }
+    .nav-item {
+        position: relative;
+    }
+
+    .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        text-align: center;
+        top: 38.75px ;
+    }
+    .navbar-nav .dropdown-menu {
+        top: 53.5px !important;
+    }
+}
+@media (max-width: 600px) {
+    .nav-item:hover .dropdown-menu {
+        display: none;
+    }
+}
+.bg-pink {
+    background-color: rgb(255, 105, 235);
+}
+
+
