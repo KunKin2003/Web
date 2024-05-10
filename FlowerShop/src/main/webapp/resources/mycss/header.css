@@ -23,10 +23,6 @@
         display: none;
         position: absolute;
         text-align: center;
-        top: 38.75px ;
-    }
-    .navbar-nav .dropdown-menu {
-        top: 53.5px !important;
     }
 }
 @media (max-width: 600px) {
